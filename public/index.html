@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="output.css">
+    <script defer src="index.js"></script>
+</head>
+<body class="bg-gray-200 m-0 p-0">
+    <div class="container flex flex-col items-center ">
+        <div class="text-center py-8">
+            <h1 class="text-4xl font-bold tracking-wider mb-2 text-gray-800">About</h1>
+            <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, sint.</p>
+        </div>
+
+        <div class="flex flex-col md:flex-row justify-evenly gap-10 mt-10">
+            <div class="px-5 sm:px-0">
+                <img src="image.jpg" alt="" class="rounded-lg">
+            </div>
+            <div class="bg-white about w-[350px] sm:w-auto mx-5">
+                <div class="grid grid-cols-3 gap-0  border-gray-400 rounded">
+                    <button class="bg-gray-300 py-2 font-semibold text-gray-700 tracking-widest border-r-2 border-r-gray-400 btn active" data-id="history">History</button>
+                    <button class="bg-gray-300 py-2 font-semibold text-gray-700 tracking-widest border-r-2 border-r-gray-400 btn" data-id="vision">Vision</button>
+                    <button class="bg-gray-300 py-2 font-semibold text-gray-700 tracking-widest btn" data-id="goals">Goals</button>
+                </div>
+                <div class="px-5 content active" id="history">
+                    <h1 class="font-bold text-gray-800 mt-7 mb-2 tracking-widest heading">History</h1>
+                    <p class="w-64 sm:w-[520px] text-gray-600">
+                        Throughout history, depictions of nature have been a recurring theme in various forms of art. In traditional art, landscapes featuring mountains, rivers, forests, and other natural elements have been prevalent. Artists like Thomas Cole, a leader of the Hudson River School, and Caspar David Friedrich, a German Romantic painter, are known for their profound representations of nature in the 19th century.
+                    </p>
+                </div>
+                <div class="px-5 content" id="vision">
+                    <h1 class="font-bold text-gray-800 mt-7 mb-2 tracking-widest heading">Vision</h1>
+                    <p class="w-64 sm:w-[520px] text-gray-600">
+                        In this captivating nature image, the soft hues of dawn paint the sky in a palette of pastel colors. The first light of the morning sun bathes a dense forest in a warm and golden glow, casting long, enchanting shadows on the forest floor.Tall, ancient trees with moss-covered trunks stand as silent sentinels, their branches reaching upward to embrace the emerging daylight.
+                    </p>
+                </div>
+                <div class="px-5 content" id="goals">
+                    <h1 class="font-bold text-gray-800 mt-7 mb-2 tracking-widest heading">Goals</h1>
+                    <p class="w-64 sm:w-[520px] text-gray-600">
+                        This nature image strives to achieve a profound connection between the viewer and the diverse elements of the natural world. The primary goal is to convey a sense of harmony and balance within the rich tapestry of nature.The image aims to inspire a sense of responsibility and appreciation for the natural world. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

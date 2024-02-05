@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content{
+    display: none;
+}
+.content.active{
+    display: block;
+}
+
+.btn.active{
+    background-color: white;
+}
